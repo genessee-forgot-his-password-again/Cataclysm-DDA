@@ -1,0 +1,37 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "freezer_debug",
+    "looks_like": "minifreezer",
+    "symbol": "F",
+    "color": "blue",
+    "name": { "str": "bluespace freezer" },
+    "description": "A disconnected bluespace freezer.  Can be plugged into a power source to start freezing food.",
+    "longest_side": "1400 mm",
+    "insulation": 15,
+    "material": [ "steel" ],
+    "volume": "1 L",
+    "weight": "1 kg",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "100000 L", "max_contains_weight": "400000 kg" } ],
+    "flags": [ "TARDIS"]
+  },
+  {
+    "type": "GENERIC",
+    "category": "other",
+    "id": "generator_debug",
+    "name": { "str_sp": "bluespace vanometric generator" },
+    "looks_like": "t_plut_generator",
+    "description": "A weird-looking brick used by the Bluespace League to generate power.",
+    "weight": "1 kg",
+    "to_hit": -10,
+    "material": [ "lead", "steel" ],
+    "volume": "1 L",
+    "longest_side": "1 cm",
+    "bashing": 5,
+    "price": 1000000000,
+    "price_postapoc": 12000,
+    "symbol": "O",
+    "color": "green_white",
+    "flags": [ "NO_SALVAGE" ]
+  }
+]
